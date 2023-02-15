@@ -238,6 +238,9 @@ class Continuum(object):
     def export_grid(self):
         return self.__e, self.__mu
     
+    def export_field(self):
+        return self.__P, self.__v
+    
     def build(self,verbose=1):
         if verbose:
             start=time.time()
