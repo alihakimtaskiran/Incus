@@ -95,7 +95,7 @@ Acoustic Simulator for Python
    Executes FDTD calculations on a Continuum object.
    - **time_steps** : It is number of time steps that field will evolve. It may take an integer. Lenght of time steps is given by ds/c/(<span>&#8730;</span>dim) ; where ds is grid spacing, c is max speed of sound in the grid(331.29 default) and dim is number of dimensions of the grid. All units are SI.
    - **backend** : It sets the backend. Only **numpy** is supported recently. Therefore it is always **numpy**
-   - **observers** : Determines whether time dependent logging will be the case. If it is set to <code>None</code>, time dependent observation is not the case. However, it is a tuple or list of points e.g <code>[ (0,0), (2,2) ]</code> then it returns E-field amplitude of each given point. Returned array's order is the same as implicit order of the fed list/tuple.
+   - **observers** : Determines whether time dependent logging will be the case. If it is set to <code>None</code>, time dependent observation is not the case. However, it is a tuple or list of points e.g <code>[ (0,0), (2,2) ]</code> then it returns Pressure-field amplitude of each given point. Returned array's order is the same as implicit order of the fed list/tuple.
 <hr/> 
 
 
