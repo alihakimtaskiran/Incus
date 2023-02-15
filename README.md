@@ -7,7 +7,7 @@ Acoustic Simulator for Python
 
     pip install incus
     
-### ![Sound in Helium Baloon](examples/2-Near-Massive-Object.py)
+### ![Sound in Helium Baloon](https://github.com/alihakimtaskiran/Incus/blob/main/examples/1-Helium%20Balloon.py)
 <img src="https://github.com/alihakimtaskiran/Incus/raw/main/media/1.png" width="400"> <img src="https://github.com/alihakimtaskiran/Incus/raw/main/media/2.png" width="400">
     
 ### Tree   
